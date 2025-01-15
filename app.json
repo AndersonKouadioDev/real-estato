@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Real Estato",
+    "slug": "real-estato",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.andyjojo01.realestato"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.andyjojo01.realestato"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "588bacef-c6f8-4765-9a70-486a2f5e57a1"
+      }
+    },
+    "owner": "andyjojo01",
+    "updates": {
+      "url": "https://u.expo.dev/588bacef-c6f8-4765-9a70-486a2f5e57a1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
